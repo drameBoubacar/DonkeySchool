@@ -4,38 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Mon portfolio</title>
 </head>
 <body>
     <!-- HEADER -->
     <header>
-        <h1>Mon portfolio</h1>
+        <h1><a href="" title="portfolio">Mon portfolio</a></h1>
         <nav>
+            <div class="dropdown">
+                <button>Dropdown</button>
+                <div class="menu">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
             <ul>
-                <li><a href="">projets</a></li>
-                <li><a href="">cv</a></li>
-                <li><a href="">contact</a></li>
+                <li><a href="" title="projets">projets</a></li>
+                <li><a href="" title="cv">cv</a></li>
+                <li><a href="" title="contact">contact</a></li>
             </ul>
         </nav>
+       
     </header>
     <main>
         <!-- Projets -->
         <section>
             <h2>projets</h2>
             <figure>
-                <img src="https://via.placeholder.com/150C/O https://placeholder.com/"
-                        alt="Elephant at sunset">
-                <figcaption>An elephant at sunset</figcaption>
+                <figcaption>projet 1</figcaption>
+                <a href="" title="projet">
+                    <img src="https://via.placeholder.com/150C/O https://placeholder.com/"
+                         class="img-project"
+                         alt="projet"
+                    >
+                </a>
+                
             </figure>
             <figure>
-                <img src="https://via.placeholder.com/150C/O https://placeholder.com/"
-                        alt="Elephant at sunset">
-                <figcaption>An elephant at sunset</figcaption>
+                <figcaption>projet 2</figcaption>
+                <a href="" title="projet">
+                    <img src="https://via.placeholder.com/150C/O https://placeholder.com/"
+                         class="img-project"
+                         alt="projet"
+                    >
+                </a>
+                
             </figure>
             <figure>
-                <img src="https://via.placeholder.com/150C/O https://placeholder.com/"
-                        alt="Elephant at sunset">
-                <figcaption>An elephant at sunset</figcaption>
+                <figcaption>projet 3</figcaption>
+                <a href="" title="projet">
+                    <img src="https://via.placeholder.com/150C/O https://placeholder.com/"
+                         class="img-project"
+                         alt="projet"
+                    >
+                </a>
+                
             </figure>
         </section>
         <!-- Mon cv -->
@@ -51,18 +76,18 @@
         <!-- Contact -->
         <section>
             <h2>Contact</h2>
-            <form action="">
+            <form action="POST">
                 <div>
-                    <label for="">nom et prénom</label>
-                    <input type="text">
+                    <label for="identity">nom et prénom</label>
+                    <input type="text" name="identity">
                 </div>
                 <div>
-                    <label for="">e-mail</label>
-                    <input type="email">
+                    <label for="mail">e-mail</label>
+                    <input type="email" name="mail">
                 </div>
                 <div>
-                    <label for="Message"></label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
                 </div>
             </form>
         </section>
@@ -71,9 +96,9 @@
     <footer>
         <nav>
             <ul>
-                <li> <a href="">projets</a> </li>
-                <li> <a href="">cv</a> </li>
-                <li> <a href="">contact</a> </li>
+                <li><a href="" title="projets">projets</a></li>
+                <li><a href="" title="cv">cv</a></li>
+                <li><a href="" title="contact">contact</a></li>
             </ul>
         </nav>
     </footer>

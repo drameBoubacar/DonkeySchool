@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+}
+
+.img-project:hover {
+    opacity: 0.13;
+}
+
+.img-project {
+    border-radius: 3px;
+}
+
+figure:last-child {
+    filter: grayscale(100%);
+}
+/* DROPDOWN MENU */
+.dropdown {
+    width: 6%;
+}
+
+.dropdown button {
+    background-color: #BBBBBB;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px;
+    text-transform: uppercase;
+   
+}
+  
+.menu {
+    background-color: #BBBBBB;
+    display: none;
+    width: 30%;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu a {
+    color: #000000;
+    display: block;
+    padding: 1rem 1rem;
+}
+
+.menu a:hover {
+    color: #FFFFFF;
+}
+
+.dropdown:hover .menu {
+    display: block;
+}
+
