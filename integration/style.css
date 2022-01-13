@@ -5,3 +5,7 @@
 .img-project {
     border-radius: 3px;
 }
+
+figure:last-child {
+    filter: grayscale(100%);
+}
