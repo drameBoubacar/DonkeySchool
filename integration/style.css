@@ -84,3 +84,15 @@ figcaption {
 input, textarea {
     display: block;
 }
+
+/* FOOTER */
+.footer-menu {
+    display: flex;
+    justify-content: center;
+}
+.footer-menu li {
+    list-style-type: none;
+}
+.footer-menu a {
+    margin-left: 10px;
+}
