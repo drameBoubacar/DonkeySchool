@@ -1,3 +1,24 @@
+/* HEADER */
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+/* NAV HEADER */
+.navigation-header {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-header ul {
+    display: flex;
+}
+.navigation-header ul li {
+    list-style-type: none;
+}
+.navigation-header ul a {
+    margin-right: 10px;
+}
+
 .img-project:hover {
     opacity: 0.13;
 }
