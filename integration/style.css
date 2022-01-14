@@ -49,3 +49,7 @@ figure:last-child {
     display: block;
 }
 
+
+@media only screen(max-width:600px){
+
+}
