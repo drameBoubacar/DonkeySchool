@@ -8,6 +8,7 @@ header {
 .navigation-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .navigation-header ul {
     display: flex;
