@@ -10,27 +10,19 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 .navigation-header ul {
     display: flex;
 }
+
 .navigation-header ul li {
     list-style-type: none;
 }
+
 .navigation-header ul a {
     margin-right: 10px;
 }
 
-.img-project:hover {
-    opacity: 0.13;
-}
-
-.img-project {
-    border-radius: 3px;
-}
-
-figure:last-child {
-    filter: grayscale(100%);
-}
 /* DROPDOWN MENU */
 .dropdown {
     width: 6%;
@@ -66,6 +58,28 @@ figure:last-child {
 .dropdown:hover .menu {
     display: block;
 }
+/* PROJETS */
+.container-project {
+    display: flex;
+    justify-content: center;
+}
+
+figure:last-child {
+    filter: grayscale(100%);
+}
+
+figcaption {
+    text-align: center;
+}
+
+.img-project:hover {
+    opacity: 0.13;
+}
+
+.img-project {
+    border-radius: 3px;
+}
+
 
 
 @media only screen and(max-width:600px){
