@@ -79,3 +79,8 @@ figcaption {
 .img-project {
     border-radius: 3px;
 }
+
+/* CONTACT */
+input, textarea {
+    display: block;
+}
